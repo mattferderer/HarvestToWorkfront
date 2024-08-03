@@ -1,4 +1,4 @@
-#Harvest to Workfront time entry migration tool
+# Harvest to Workfront time entry migration tool
 
 Copies time entries from Harvest & moves them over to Workfront.
 
