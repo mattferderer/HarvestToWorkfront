@@ -140,15 +140,15 @@ public class WorkfrontTimeEntry
     public string entryDate { get; set; }
     public string? ID { get; set; }
     public string description { get; set; }
-    public string hourTypeID { get; set; } = "ca57688b54c3a0375c408f3ccf0af28b";
-    public string projectID { get; set; } = "639ca41a001202f05ca314217e030f96";
+    public string hourTypeID { get; set; } = "";
+    public string projectID { get; set; } = "";
     public string taskID { get; set; }
     public string? opTaskID { get; set; }
-    public string roleID { get; set; } = "5be3048e00fb419c81b4bf8372c6f49e";
+    public string roleID { get; set; } = "";
     public double hours { get; set; }
     public double days { get => hours / 8; }
     public string? status { get; set; }
-    public string ownerID { get; set; } = "5be3041500faeb7ca894da39ba82659f";
+    public string ownerID { get; set; } = "";
     public string timesheetID { get; set; }
 }
 
